@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+html {
+  background-color: cornflowerblue
+}
+
+
+.tags-container {
+  position: relative;
+  width: 225%;
+}
+
+.tags-container span {
+  border: 2px solid black;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 12px;
+  padding: 3px 10px;
+  margin: 5px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+form input {
+  border: 2px solid #aaa;
+  color: #333;
+  font-size: 14px;
+  font-family: Lato;
+  padding: 10px 15px;
+  height: 15px;
+  width: 300px;
+  max-width: 100%;
+}
+
+form button {
+  border: 1px solid #aaa;
+  background-color: #aaa;
+  color: #fff;
+  padding: 0 12px;
+  height: 40px;
+}
+
+form button:focus {
+  outline: none;
+}
+
+form button:active {
+  opacity: 0.7;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+.Link {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination li {
+  text-align: center;
+  margin: 3px;
+  min-width: 30px;
+  padding: 5px;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: white;
+  list-style-type: none;
+}
+.pagination li:hover {
+  background: #f1f1f1;
+}
+
+.pagination .active {
+  background: #b6d2fc;
+  pointer-events: none;
+}
